@@ -1,0 +1,50 @@
+#navBckgImg {
+    background-image: url('../images/story.png');
+    background-position: center center !important;
+    background-size: cover !important;
+    height: 580px;
+    width: 100%;
+}
+
+img {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+}
+
+.topHeader {
+    padding-bottom: 5vh;
+}
+
+.topMessage {
+    width: 100%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 5vw;
+    color: white;
+    letter-spacing: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.arrow {
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+
+#begin {
+    height: 1500px;
+}
+
+@media (max-width: 640px) {
+    #navBckgImg {
+      height: 300px;
+    }
+}
