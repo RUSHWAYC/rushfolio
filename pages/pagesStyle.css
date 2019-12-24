@@ -37,14 +37,101 @@ img {
     height: 150px;
     width: 150px;
     cursor: pointer;
+    margin-top: 50px;
 }
 
 #begin {
-    height: 1500px;
+    background-image: url('../images/bckgNarrow.png');
+    background-repeat: repeat-y;
+    background-position: center center;
+    border: 0 none;
+    outline: none;
+    color: white;
+    overflow-x: hidden;
+}
+
+h1 {
+    margin: 25px auto 60px auto;
+    width: 75%;
+    font-size: 5vw;
+    color: black;
+    text-align: center;
+}
+
+p {
+    margin: auto;
+    width: 70%;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+
+.rainbow {
+    text-shadow: 2px 2px 4px #000000;
+    animation: rainbow 5s infinite; 
+}
+
+@keyframes rainbow{
+    0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+#greenSquare {
+    background-color: green;
+    margin: 100px auto 60px auto;
+    width: 70%;
+    padding-bottom: 70px;
+}
+
+#greenSquare h1 {
+    color: white;
+    padding-top: 60px;
+}
+
+#greenSquare p {
+    font-size: 30px;
+    width: 80%;
+    color: white;
+    text-align: left;
 }
 
 @media (max-width: 640px) {
     #navBckgImg {
       height: 300px;
+    }
+
+    .arrow {
+        margin-top: 20px;
+    }
+
+    h1 {
+        margin: auto;
+        width: 100%;
+        font-size: 5vw;
+        color: black;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    
+    p {
+        font-size: 20px;
+        color: black;
+        text-align: left;
+    }
+
+    #greenSquare p {
+        font-size: 15px;
+        width: 80%;
+        color: white;
+        text-align: left;
     }
 }
