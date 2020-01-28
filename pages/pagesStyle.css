@@ -1,5 +1,13 @@
-#navBckgImg {
+#navBckgImg1 {
     background-image: url('../images/story.png');
+    background-position: center center !important;
+    background-size: cover !important;
+    height: 580px;
+    width: 100%;
+}
+
+#navBckgImg2 {
+    background-image: url('../images/code.png') !important;
     background-position: center center !important;
     background-size: cover !important;
     height: 580px;
@@ -104,6 +112,62 @@ p {
     text-align: left;
 }
 
+.itMe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#getInTouch p {
+    font-size: 30px;
+}
+
+#getInTouch a {
+    text-decoration: none;
+}
+
+#getInTouch .boxed {
+    color: white;
+    background-color: green;
+    width: 250px;
+    height: 44px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+#footer {
+    background-color: black;
+    width: 100%;
+    height: 15rem;
+  }
+  
+  .footer {
+    -webkit-filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px -1px 0 white);
+      filter:drop-shadow(1px 1px 0 black) drop-shadow(-1px -1px 0 white);
+    position: relative;
+  }
+  
+  #footer-menu {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #footer-menu ul li {
+    color: #b9b9b9;
+    display: inline-block;
+    font-size: 30px;
+    margin: 3% 5%;
+  }
+  
+  .navfoot {
+    color: #b9b9b9;
+    text-decoration: none;
+    list-style: circle;
+  }
+
 @media (max-width: 640px) {
     #navBckgImg {
       height: 300px;
@@ -133,5 +197,10 @@ p {
         width: 80%;
         color: white;
         text-align: left;
+    }
+
+    #getInTouch p {
+        font-size: 20px;
+        text-align: center;
     }
 }
